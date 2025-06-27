@@ -13,7 +13,11 @@ div {
 }
 
 .left-panel {
-    width: 25%
+    width: 25%;
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
 }
 
 .right-panel {
