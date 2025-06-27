@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    margin: 0;
+    width: 100%;
+}
+
+div {
+    border: 2px solid gray;
+}
+
+.left-panel, .right-panel {
+    height: 98vh;
+}
+
+.left-panel {
+    width: 25%
+}
+
+.right-panel {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.panel {
+    flex: 1;
+}
