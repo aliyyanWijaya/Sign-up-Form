@@ -118,18 +118,14 @@ input {
     height: 25px;
     padding-left: 5px;
     border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 input:focus {
-    border-color: blue;
+  background-color: lightblue;
 }
 
-input:focus:valid {
-  border-color: blue;
-}
-
-input:focus:invalid {
+#pass:invalid,
+#conf-pass:invalid {
     border-color: red;
 }
 
@@ -146,13 +142,13 @@ button {
     background-color: #596D48;
     color: white;
     border-radius: 5px;
-    padding: 5px 40px;
+    padding: 8px 45px;
 }
 
 .login {
     color: #596D48;
     font-weight: bold;
-     text-decoration: none;
+    text-decoration: none;
 }
 
 .long-text {
