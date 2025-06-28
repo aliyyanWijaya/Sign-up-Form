@@ -23,11 +23,52 @@
             <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sgn up <em>now</em> to get started.</p>
             <p>You <em>know</em> you want to</p>
         </div>
+        
         <div class="right-middle-panel panel">
+            <div>
+                <p>Let's do this!</p>
+            </div>
+            <div class="form-section">
+                <div class="left-form-section">
+                    <div class="form">
+                        <label for="first-name">FIRST NAME </label>
+                        <input type="text" name="first-name" id="first-name" required />
+                    </div>
+                    <div class="form">
+                        <label for="email">EMAIL </label>
+                        <input type="email" name="email" id="email" required />
+                    </div>
+                    <div class="form">
+                        <label for="pass">PASSWORD</label>
+                        <input type="password" id="pass" name="password" minlength="8" required />
+                    </div>
+                </div>
 
+                <div class="right-form-section">
+                    <div class="form">
+                        <label for="last-name">LAST NAME </label>
+                        <input type="text" name="last-name" id="last-name" required />
+                    </div>
+                    <div class="form">
+                        <label for="phone">Enter your phone number: </label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                            required />
+                    </div>
+                    <div class="form">
+                        <label for="conf-pass">Password (8 characters minimum):</label>
+                        <input type="password" id="conf-pass" name="conf-pass" minlength="8" required />
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="right-bottom-panel panel">
 
+        <div class="right-bottom-panel panel">
+            <button>Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
         </div>
     </div>
 </body>
