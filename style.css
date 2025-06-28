@@ -116,6 +116,21 @@ a {
 input {
     width: 200px;
     height: 25px;
+    padding-left: 5px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input:focus {
+    border-color: blue;
+}
+
+input:focus:valid {
+  border-color: blue;
+}
+
+input:focus:invalid {
+    border-color: red;
 }
 
 .right-bottom-panel {
@@ -136,6 +151,8 @@ button {
 
 .login {
     color: #596D48;
+    font-weight: bold;
+     text-decoration: none;
 }
 
 .long-text {
@@ -145,3 +162,4 @@ button {
 .signup-text {
     margin-bottom: 20px;
 }
+
