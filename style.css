@@ -69,7 +69,7 @@ a {
 }
 
 .right-top-panel {
-    padding: 50px 20px 10px 30px;
+    padding: 50px 20px 20px 30px;
     background-color: rgb(238, 232, 232)
 }
 
@@ -136,4 +136,12 @@ button {
 
 .login {
     color: #596D48;
+}
+
+.long-text {
+    width: 550px;
+}
+
+.signup-text {
+    margin-bottom: 20px;
 }
